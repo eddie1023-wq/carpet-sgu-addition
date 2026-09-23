@@ -28,32 +28,3 @@
     "requireAnnotations": true
   }
 }
-{
-  "required": true,
-  "minVersion": "0.8",
-  "package": "org.carpet.sgu.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "AbstractDecorationEntityDamageMixin",
-    "BlockPosMixin",
-    "DecoratedPotBlockMixin",
-    "EntityAccessor",
-    "ItemFrameDamageMixin",
-    "PlayerEntityMixin",
-    "ProjectileEntityMixin",
-    "ServerWorldMixin",
-    "ServerPlayerGameModeMixin",
-    "PinkPetalsBlockMixin",
-    "SporeBlossomBlockMixin",
-    "ServerPlayerGameModeSpectatorPortalMixin",
-    "EntityPlayerMPFakeMixin"
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
-  }
-}
